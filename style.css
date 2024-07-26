@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+.momsmagic{
+    background-image: url("./image/home.jpg");
+    height: calc(100vh - 120px);
+    background-position: center;
+    background-size:cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+    position: relative;
+}
+.momsmagic::before{
+    content: "";
+    position:absolute;
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.5);
+}
+.mom{
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+    color: #ffff;
+
+}
+.welcome{
+   display: flex; 
+   justify-content: space-between;
+
+}
+
+.about{
+    margin-top: 45px;
+    width: 50%;
+}
+
+.nuturing{
+    font-size: 40px;
+    font-weight: 300; 
+    line-height: 60px;
+
+}
+
+span{
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.description{
+    font-size: 24px;
+    margin-top: 15px;
+    width: 96%;
+}
+
+.doctors{
+    height: 613px;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.doc{
+    width: 50%;
+    margin-top: 80px;
+}
+
+.health{
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 4.8px;
+    margin-bottom: 45px;
+}
+
+.about-us{
+    font-size: 24px;
+    letter-spacing: 2.4px;
+    width: 94%;
+    margin: 45px 0;     
+}
+
+button{
+    height: 80px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2cf95;
+    font-size: 35px;
+    letter-spacing: 3.5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+
+}
+
+button:hover{
+    transform: translateY(-10px);
+    transition: ease-in-out;
+    transition-duration: 500ms;
+}
